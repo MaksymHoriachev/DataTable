@@ -1,4 +1,4 @@
-var table = $('#exampl').DataTable();
+var table = $('#example').DataTable();
 
 $('#btn-1').on( 'click', function () {
     table.page.len(3).draw();
